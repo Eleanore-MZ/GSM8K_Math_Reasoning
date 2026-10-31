@@ -1,0 +1,31 @@
+{
+  "accuracy": 0.3333333333333333,
+  "correct": 1,
+  "total": 3,
+  "records": [
+    {
+      "index": 0,
+      "question": "Janet\u2019s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?",
+      "ground_truth": "18",
+      "model_response": "Janet's ducks lay 16 eggs per day, so she has a total of 16 eggs.\nShe eats 3 eggs for breakfast every morning, so she has 16 - 3 = 13 eggs left.\nShe also bakes muffins for her friends every day with 4 eggs, so she has 13 - 4 = 9 eggs left.\nShe sells the remainder at the farmers' market daily for $2 per fresh duck egg, so she makes 9 * $2 = $18 every day at the farmers' market.\n\n\\boxed{18}",
+      "extracted_answer": "18",
+      "correct": true
+    },
+    {
+      "index": 1,
+      "question": "A robe takes 2 bolts of blue fiber and half that much white fiber.  How many bolts in total does it take?",
+      "ground_truth": "3",
+      "model_response": "He needs 2*2=4 bolts of white fiber.\nSo he needs a total of 2+4 =6 bolts\n\n\\boxed{6}",
+      "extracted_answer": "6",
+      "correct": false
+    },
+    {
+      "index": 2,
+      "question": "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?",
+      "ground_truth": "70000",
+      "model_response": "He spent 80,000+50,000=$130,000\nIt's worth 130,000*1.5=$195,000 now\nSo his profit was 195,000-130,000=$65,000\n\n\\boxed{65000}",
+      "extracted_answer": "65000",
+      "correct": false
+    }
+  ]
+}

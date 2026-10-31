@@ -1,0 +1,3 @@
+model_setting,no_demo_correct,no_demo_total,no_demo_accuracy,three_shot_correct,three_shot_total,three_shot_accuracy,absolute_gain,relative_gain_percent
+Base model,34,100,0.34,40,100,0.4,0.06,17.64705882352941
+LoRA SFT 2k,41,100,0.41,44,100,0.44,0.030000000000000027,7.317073170731714

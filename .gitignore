@@ -1,0 +1,12 @@
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.jupyter_runtime/
+tmp/
+*.aux
+*.log
+*.out
+*.tex
+*_files/
+outputs_old_adapters/lora_gsm8k_*/checkpoint-*/
+data/gsm8k/cache-*.arrow

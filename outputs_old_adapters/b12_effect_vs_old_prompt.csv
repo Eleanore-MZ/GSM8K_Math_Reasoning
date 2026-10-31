@@ -1,0 +1,4 @@
+prompt_name,fixed_by_variant,broken_by_variant,correct_both,wrong_both,net_gain_vs_old
+short_direct,7,8,6,29,-1
+step_by_step,7,6,8,29,1
+equations_and_check,7,5,9,29,2

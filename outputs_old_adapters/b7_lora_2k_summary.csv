@@ -1,0 +1,6 @@
+setting,model,adapter_path,num_train_examples,num_eval_questions,correct,accuracy,baseline_accuracy,lora_1k_accuracy,accuracy_improvement_over_baseline,accuracy_improvement_over_1k,train_runtime_sec,eval_runtime_sec,lora_rank,lora_alpha,lora_dropout,target_modules,learning_rate,epochs,train_batch_size,grad_accum,effective_train_batch_size,max_seq_len,system_prompt,few_shot
+lora_sft_2k,Qwen/Qwen2.5-1.5B-Instruct,outputs_old_adapters\lora_gsm8k_2k\final_adapter,2000,100,41,0.41,0.34,0.39,0.06999999999999995,0.019999999999999962,0.02332340000430122,172.21427160000894,8,16,0.05,"q_proj, k_proj, v_proj, o_proj",0.0002,1,2,32,64,1024,"Your task is to solve the math problem.
+
+Final answer rule:
+The last line of your response must be exactly:
+\boxed{ANSWER}",False

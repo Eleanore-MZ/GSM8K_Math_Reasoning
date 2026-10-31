@@ -1,0 +1,31 @@
+prompt_name,prompt_text
+old_prompt,"Your task is to solve the math problem.
+
+Final answer rule:
+The last line of your response must be exactly:
+\boxed{ANSWER}"
+short_direct,"Solve the math word problem. Be concise.
+Use only the calculations needed to get the answer.
+
+Final answer rule:
+The last line of your response must be exactly:
+\boxed{ANSWER}"
+step_by_step,"Solve the math word problem using this structure:
+1. Briefly identify what the question is asking for.
+2. List the necessary quantities from the problem.
+3. Write the calculation step by step.
+4. Give only the final numeric answer in the required format.
+
+Do not invent extra assumptions. Use the numbers exactly as stated in the problem.
+
+Final answer rule:
+The last line of your response must be exactly:
+\boxed{ANSWER}"
+equations_and_check,"You are a careful math checker.
+First write the key equations, then compute the answer, then check that the result answers the question.
+Be especially careful with units, totals, twice/as-many relationships, percentage increases, and remaining quantities.
+Give only the final numeric answer in the required format.
+
+Final answer rule:
+The last line of your response must be exactly:
+\boxed{ANSWER}"

@@ -1,0 +1,5 @@
+model_setting,prompting,boxed_count,total,boxed_rate
+Base model,no demonstrations,63,100,0.63
+Base model,3-shot,81,100,0.81
+LoRA SFT 2k,no demonstrations,85,100,0.85
+LoRA SFT 2k,3-shot,96,100,0.96

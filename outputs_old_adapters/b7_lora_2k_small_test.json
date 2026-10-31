@@ -1,0 +1,31 @@
+{
+  "accuracy": 0.3333333333333333,
+  "correct": 1,
+  "total": 3,
+  "records": [
+    {
+      "index": 0,
+      "question": "Janet\u2019s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?",
+      "ground_truth": "18",
+      "model_response": "Janet's ducks lay 16 eggs per day, so if she doesn't eat any of them, there would be 16 - 3 = 13 eggs left.\nShe gives away 4 eggs to her friends, leaving 13 - 4 = 9 eggs.\nSo Janet makes 9 * $2 = $18 at the farmers' market every day.\n\n\\boxed{$18$}",
+      "extracted_answer": "$18$",
+      "correct": true
+    },
+    {
+      "index": 1,
+      "question": "A robe takes 2 bolts of blue fiber and half that much white fiber.  How many bolts in total does it take?",
+      "ground_truth": "3",
+      "model_response": "He needs 2*2=4 bolt of white fiber.\nSo he needs a total of 2+4 =6 bolts\n\n\\boxed{6}",
+      "extracted_answer": "6",
+      "correct": false
+    },
+    {
+      "index": 2,
+      "question": "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?",
+      "ground_truth": "70000",
+      "model_response": "He spent $50,000 worth of repairs on something that was originally worth $80,000 so he subtracted $50,000 from $80,000 for a net cost of 30,000. The house increased in value by 150% which means it's now worth 4 times its original price or 4*80,000=$320,000. If you take how much it's worth now ($320,000) and subtract out what it cost him to fix up the house (30,000) he made a profit of 320,000-30,000=$290,000\n\n\\boxed{290000}",
+      "extracted_answer": "290000",
+      "correct": false
+    }
+  ]
+}

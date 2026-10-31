@@ -1,0 +1,5 @@
+prompt_name,boxed_count,total,boxed_rate,avg_response_chars,median_response_chars
+old_prompt,31,50,0.62,1060.52,1044.0
+short_direct,22,50,0.44,650.94,585.5
+step_by_step,45,50,0.9,1054.68,1011.0
+equations_and_check,39,50,0.78,1051.6,1074.5

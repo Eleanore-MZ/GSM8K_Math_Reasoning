@@ -1,0 +1,4 @@
+setting,num_train_examples,correct,total,accuracy,delta_vs_base
+base_model,0,34,100,0.34,0.0
+lora_sft_1k,1000,39,100,0.39,0.04999999999999999
+lora_sft_2k,2000,41,100,0.41,0.06999999999999995

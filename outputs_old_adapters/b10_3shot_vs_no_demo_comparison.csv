@@ -1,0 +1,5 @@
+model_setting,model,adapter,prompting,k,correct,total,accuracy,baseline_accuracy,delta_vs_no_demo,runtime_sec
+Base model,Qwen/Qwen2.5-1.5B-Instruct,none,no demonstrations,0,34,100,0.34,0.34,0.0,190.75520729998243
+Base model,Qwen/Qwen2.5-1.5B-Instruct,none,3-shot,3,40,100,0.4,0.34,0.06,166.57929640001385
+LoRA SFT 2k,Qwen/Qwen2.5-1.5B-Instruct,outputs_old_adapters\lora_gsm8k_2k\final_adapter,no demonstrations,0,41,100,0.41,0.41,0.0,172.21427160000894
+LoRA SFT 2k,Qwen/Qwen2.5-1.5B-Instruct,outputs_old_adapters\lora_gsm8k_2k\final_adapter,3-shot,3,44,100,0.44,0.41,0.030000000000000027,189.07871460000752

@@ -1,0 +1,3 @@
+model_setting,correct_both,fixed_by_3shot,broken_by_3shot,wrong_both,net_gain
+Base model,18,22,16,44,6
+LoRA SFT 2k,27,17,14,42,3

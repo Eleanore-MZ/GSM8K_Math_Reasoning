@@ -1,0 +1,31 @@
+{
+  "accuracy": 0.6666666666666666,
+  "correct": 2,
+  "total": 3,
+  "records": [
+    {
+      "index": 0,
+      "question": "Janet\u2019s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?",
+      "ground_truth": "18",
+      "model_response": "To determine how much Janet makes every day at the farmers' market, we need to follow these steps:\n\n1. Calculate the total number of eggs laid by the ducks each day.\n2. Determine how many eggs are eaten for breakfast.\n3. Subtract the number of eggs eaten from the total number of eggs laid to find out how many eggs are left for baking muffins.\n4. Subtract the number of eggs used for baking muffins from the remaining eggs to find out how many eggs are sold at the farmers' market.\n5. Calculate the revenue from selling the eggs at the farmers' market.\n\nLet's go through these steps one by one.\n\nStep 1: Total number of eggs laid by the ducks each day = 16\n\nStep 2: Number of eggs eaten for breakfast = 3\n\nStep 3: Remaining eggs after breakfast = 16 - 3 = 13\n\nStep 4: Number of eggs used for baking muffins = 4\n\nRemaining eggs available for sale = 13 - 4 = 9\n\nStep 5: Revenue from selling the eggs at the farmers' market = 9 * $2 = $18\n\nTherefore, Janet makes $18 every day at the farmers' market.",
+      "extracted_answer": "18",
+      "correct": true
+    },
+    {
+      "index": 1,
+      "question": "A robe takes 2 bolts of blue fiber and half that much white fiber.  How many bolts in total does it take?",
+      "ground_truth": "3",
+      "model_response": "To determine the total number of bolts of fiber needed for the robe, we need to follow these steps:\n\n1. Identify how many bolts of blue fiber are required.\n   - The problem states that a robe takes 2 bolts of blue fiber.\n\n2. Determine how many bolts of white fiber are required.\n   - The problem indicates that a robe requires half as much white fiber as blue fiber.\n   - Therefore, the amount of white fiber needed is \\( \\frac{2}{2} = 1 \\) bolt.\n\n3. Calculate the total number of bolts of fiber by adding the bolts of blue fiber and the bolts of white fiber together.\n   - Total bolts = Bolts of blue fiber + Bolts of white fiber\n   - Total bolts = 2 + 1 = 3\n\nThus, the total number of bolts of fiber needed is 3. \n\nTherefore, the final answer is:\n\n\\[\n\\boxed{3}\n\\]",
+      "extracted_answer": "3",
+      "correct": true
+    },
+    {
+      "index": 2,
+      "question": "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?",
+      "ground_truth": "70000",
+      "model_response": "To determine Josh's profit from flipping the house, we need to follow these steps:\n\n1. Calculate the total cost of buying and repairing the house.\n2. Determine the new value of the house after the repairs.\n3. Find out how much more money the house is worth than what it originally cost.\n4. Subtract the original cost from this amount to find the profit.\n\nLet's go through each step in detail:\n\n1. **Calculate the total cost:**\n   - Cost of the house: $80,000\n   - Amount spent on repairs: $50,000\n   - Total cost = $80,000 + $50,000 = $130,000\n\n2. **Determine the new value of the house:**\n   - The house's value increased by 150%.\n   - Increase in value = 150% of $80,000\n   - Increase in value = 0.15 * $80,000 = $12,000\n   - New value of the house = Original value + Increase in value\n   - New value = $80,000 + $12,000 = $92,000\n\n3. **Find out how much more money the house is worth than what it originally cost:**\n   - Profit = New value - Original cost\n   - Profit = $92,000 - $80,000 = -$78,000\n\nSince the result is negative, it means Josh actually lost money. Therefore, his loss is $78,000.\n\nSo, the final answer is:\n\\boxed{-78000}",
+      "extracted_answer": "-78000",
+      "correct": false
+    }
+  ]
+}

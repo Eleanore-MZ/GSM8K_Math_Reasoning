@@ -1,0 +1,6 @@
+setting,model,num_eval_questions,correct,accuracy,runtime_sec,system_prompt,few_shot,batch_size
+base_model_zero_shot,Qwen/Qwen2.5-1.5B-Instruct,100,34,0.34,190.75520729998243,"Your task is to solve the math problem.
+
+Final answer rule:
+The last line of your response must be exactly:
+\boxed{ANSWER}",False,16

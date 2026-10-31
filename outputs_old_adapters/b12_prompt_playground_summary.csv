@@ -1,0 +1,5 @@
+prompt_name,correct,total,accuracy,runtime_sec
+old_prompt,14,50,0.28,
+short_direct,13,50,0.26,77.61344559999998
+step_by_step,15,50,0.3,115.19039160001557
+equations_and_check,16,50,0.32,116.77682180001284

@@ -1,0 +1,5 @@
+effect,count,percent
+wrong_both,42,42.0
+correct_both,27,27.0
+fixed_by_3shot,17,17.0
+broken_by_3shot,14,14.0

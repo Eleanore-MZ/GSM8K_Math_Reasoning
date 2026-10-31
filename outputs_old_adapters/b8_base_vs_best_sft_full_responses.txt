@@ -1,0 +1,177 @@
+========================================================================================================================
+Index: 2
+Ground truth: 70000
+------------------------------------------------------------------------------------------------------------------------
+Question:
+Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?
+------------------------------------------------------------------------------------------------------------------------
+BASE MODEL
+Extracted answer: -128000
+Correct: False
+
+To determine Josh's profit from flipping the house, we need to follow these steps:
+
+1. Calculate the total cost of buying and repairing the house.
+2. Determine the new value of the house after the repairs.
+3. Find out how much more money the house is worth than what it originally cost.
+4. Subtract the original cost from this amount to find the profit.
+
+Let's go through each step in detail:
+
+### Step 1: Total Cost Calculation
+- Initial purchase price of the house: $80,000
+- Amount spent on repairs: $50,000
+
+Total cost = Purchase price + Repair costs
+\[ \text{Total cost} = \$80,000 + \$50,000 = \$130,000 \]
+
+### Step 2: New Value After Repairs
+The problem states that the repairs increased the value of the house by 150%.
+
+New value = Original value + (Original value * Percentage increase)
+\[ \text{New value} = \$80,000 + (\$80,000 \times 0.15) \]
+\[ \text{New value} = \$80,000 + \$12,000 = \$92,000 \]
+
+### Step 3: Profit Calculation
+Profit = New value - Total cost
+\[ \text{Profit} = \$92,000 - \$130,000 = -\$128,000 \]
+
+Since the result is negative, it indicates a loss rather than a profit.
+
+Therefore, Josh made a loss of **$128,000**.
+
+\[
+\boxed{-128000}
+\]
+------------------------------------------------------------------------------------------------------------------------
+LoRA SFT 2k
+Extracted answer: 10000
+Correct: False
+
+He spent $50,000 worth of repairs on something that was originally worth $80,000 so that's an extra $30,000 ($50,000 - $20,000). The new value of the house is therefore $110,000 ($80,000 + $30,000). Since he made this purchase with no money down it means he paid $110,000 for a property that now is worth $110,000. His profit is therefore $10,000 ($110,000 - $100,000).
+
+\boxed{10000}
+------------------------------------------------------------------------------------------------------------------------
+Fixed by SFT: False
+========================================================================================================================
+
+========================================================================================================================
+Index: 4
+Ground truth: 20
+------------------------------------------------------------------------------------------------------------------------
+Question:
+Every day, Wendi feeds each of her chickens three cups of mixed chicken feed, containing seeds, mealworms and vegetables to help keep them healthy.  She gives the chickens their feed in three separate meals. In the morning, she gives her flock of chickens 15 cups of feed.  In the afternoon, she gives her chickens another 25 cups of feed.  How many cups of feed does she need to give her chickens in the final meal of the day if the size of Wendi's flock is 20 chickens?
+------------------------------------------------------------------------------------------------------------------------
+BASE MODEL
+Extracted answer: 1
+Correct: False
+
+To determine how much feed Wendi needs for one chicken in the evening meal, we first calculate the total amount of feed given to all the chickens throughout the day.
+
+First, let's find out how much feed is given to all the chickens in the morning and afternoon:
+
+Morning: \( \frac{1}{3} \) cup per chicken = \( \frac{1}{3} \times 20 = \frac{20}{3} \approx 6.67 \) cups
+
+Afternoon: \( \frac{2}{3} \) cup per chicken = \( \frac{2}{3} \times 20 = \frac{40}{3} \approx 13.333 \) cups
+
+Now, add these amounts together to get the total feed given during the day:
+
+Total daily feed = Morning + Afternoon = \( \frac{20}{3} + \frac{40}{3} = \frac{60}{3} = 20 \) cups
+
+Since there are 20 chickens, divide the total daily feed by the number of chickens to find the amount of feed needed per chicken:
+
+Feed per chicken = Total daily feed / Number of chickens = \( \frac{20}{20} = 1 \) cup
+
+Therefore, Wendi needs to give each chicken 1 cup of feed in the evening meal. 
+
+So, the amount of feed needed for one chicken in the evening meal is 1 cup.
+------------------------------------------------------------------------------------------------------------------------
+LoRA SFT 2k
+Extracted answer: 55
+Correct: False
+
+To determine how much more feed Wendi needs to give her chickens in the final meal of the day, we can follow these steps:
+
+1. Calculate the total amount of feed given to all the chickens for breakfast.
+   - Each chicken gets 3 cups of feed per meal.
+   - There are 20 chickens.
+   \[
+   \text{Total feed for breakfast} = 3 \text{ cups/chicken} \times 20 \text{ chickens} = 60 \text{ cups}
+   \]
+
+2. Determine the total amount of feed given to all the chickens for lunch.
+   - The problem states that in the afternoon, Wendi gives the chickens another 25 cups of feed.
+   \[
+   \text{Total feed for lunch} = 25 \text{ cups}
+   \]
+
+3. Add the amounts of feed given for breakfast and lunch to find out how much feed has been given so far.
+   \[
+   \text{Total feed given so far} = 60 \text{ cups (breakfast)} + 25 \text{ cups (lunch)} = 85 \text{ cups}
+   \]
+
+4. Subtract the total amount of feed given so far from the total amount of feed needed for all the chickens.
+   - Since there are 20 chickens, the total amount of feed needed for all the chickens is:
+     \[
+     \text{Total feed needed} = 3 \text{ cups/chicken} \times 20 \text{ chickens} = 60 \text{ cups}
+     \]
+   - Therefore, the amount of feed left after giving it to the chickens for breakfast and lunch is:
+     \[
+     \text{Remaining feed} = 60 \text{ cups} - 85 \text{ cups} = 55 \text{ cups}
+     \]
+
+Thus, Wendi needs to give the remaining 55 cups of feed to her chickens in the final meal of the day.
+------------------------------------------------------------------------------------------------------------------------
+Fixed by SFT: False
+========================================================================================================================
+
+========================================================================================================================
+Index: 6
+Ground truth: 260
+------------------------------------------------------------------------------------------------------------------------
+Question:
+Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?
+------------------------------------------------------------------------------------------------------------------------
+BASE MODEL
+Extracted answer: 200
+Correct: False
+
+Let's denote the number of sheep in Seattle as \( S \). According to the problem, \( S = 20 \).
+
+Next, we know that Charleston has 4 times as many sheep as Seattle. So, the number of sheep in Charleston (\( C \)) can be expressed as:
+\[ C = 4S \]
+
+Substituting the value of \( S \) into this equation gives us:
+\[ C = 4 \times 20 = 80 \]
+
+Now, Toulouse has twice as many sheep as Charleston. Therefore, the number of sheep in Toulouse (\( T \)) can be expressed as:
+\[ T = 2C \]
+
+Substituting the value of \( C \) into this equation gives us:
+\[ T = 2 \times 80 = 160 \]
+
+To find the total number of sheep in all three cities combined, we add up the numbers of sheep in each city:
+\[ Total = S + C + T \]
+\[ Total = 20 + 80 + 160 \]
+\[ Total = 20 + 80 + 160 = 20 + 180 = 200 \]
+
+Therefore, the total number of sheep in Toulouse, Charleston, and Seattle is:
+\[
+\boxed{200}
+\]
+------------------------------------------------------------------------------------------------------------------------
+LoRA SFT 2k
+Extracted answer: 262
+Correct: False
+
+Seattle = 20 sheep.
+Charleston = 4 * 20 = <<4*20=80>>80 sheep.
+Toulouse = 2 * 80 = <<2*80=160>>160 sheep.
+
+Total = 20 + 80 + 160 = <<22+80+160=262>>262 sheep
+
+\boxed{262}
+------------------------------------------------------------------------------------------------------------------------
+Fixed by SFT: False
+========================================================================================================================
+

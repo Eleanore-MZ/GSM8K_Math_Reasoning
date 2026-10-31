@@ -1,0 +1,2 @@
+model,lora_rank,lora_alpha,lora_dropout,target_modules,base_total_parameters,trainable_lora_parameters,percent_trainable_vs_base,full_finetuning_reduction_factor
+Qwen/Qwen2.5-1.5B-Instruct,8,16,0.05,"q_proj, k_proj, v_proj, o_proj",1543714304,2179072,0.1411577255165474,708.4273966165414
